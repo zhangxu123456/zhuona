@@ -1,0 +1,96 @@
+$blck:#1d9ddc;
+#header { width: 100%;height: 100px;
+  .header{
+    width: 1200px; height: 100px;margin: 0 auto;
+    .logo{ width: 132px; height: 100px;float: left}
+    .nav{
+      width: 161*6px; height: 100px;float: right;
+      ul{
+        li{ width: 161px; height: 100px;float: left;display: table;
+          a{display: table-cell;vertical-align: middle;font-size: 14px;transition: .5s;
+            &:hover{ background-color: $blck;color: #fff;opacity: 1}
+            span,b{display:inline-block; width: 100%;text-align: center;opacity: .8}
+            span{font-size: 16px;}
+          }
+        }
+      }
+
+    }
+  }
+}
+#banner{
+  width: 100%; height: 700px; background:url("../../images/banner.jpg") center center no-repeat;
+}
+.program{width: 100%;height: 425px;padding-top: 60px;;}
+.invalid{ width: 1208px; height: 305px;border: 1px solid #d6d6d6;margin: 0 auto;
+  li{ width: 400px; height: 305px;float: left; }
+  a{width: 100%; height: 100%;display: block;padding-top: 70px}
+  .quick{border-left: 1px solid #d6d6d6;border-right: 1px solid #d6d6d6;}
+}
+.program dl{text-align: center;
+  dd{font-size: 24px;color: $blck;margin-top: 20px;}
+  p{font-size: 16px;color: #696969;margin-top: 20px;}
+}
+#favorites{ width: 100%; height: 570px;background-color: $blck;padding-top: 100px;}
+#favorites ul{ width: 1200px;height: 390px;margin: 0 auto;
+  li{ width: 385px; height: 390px;float: left;
+    dl{
+      dt { width: 386px; height: 300px;overflow: hidden;
+        img{display: block;transition: .8s;-webkit-transition: .8s;-moz-transition: .8s;-ms-transition: .8s;}
+        &:hover img{transform: scale(1.1);-webkit-transform: scale(1.1);-moz-transform: scale(1.1);-ms-transform: scale(1.1)}
+      }
+      dd{ width: 386px; height: 89px;padding-top:14px;padding-left:10px;background: #fff url("../../images/jian-icon.jpg") 350px center no-repeat;
+        h6{font-size: 24px;color: $blck}
+        h5{text-transform: uppercase;font-size: 16px;margin-top: 5px;}
+      }
+    }
+  }
+}
+
+.reference-cankao{margin: 0 20px;}
+.evaluated{ width: 100%; height: 580px;
+  .strategic{
+    width: 100%; height: 125px;border: 1px solid #d6d6d6;text-align: center;
+    h6{font-size: 24px;color: $blck}
+    h5{font-size: 14px;line-height: 26px;}
+  }
+  .program-one{ width: 100%; height: 200px;margin: 0 auto;border-bottom: 1px solid #d6d6d6;}
+  .notification-one{ width: 225px;height: 250px;margin: 0 auto;text-align: center;}
+  .tasks{text-align: center;font-size: 16px;color: #696969;margin-top: 40px;}
+  .nihao{width: 117px; height: 42px; border:1px solid  #d6d6d6;margin: 0 auto;margin-top: 10px;
+    .xuu{ width: 38px;height: 40px;float: left; }
+    .special{border-left:1px solid #d6d6d6;border-right:1px solid #d6d6d6;}
+  }
+  h6{font-size: 16px;color: #696969;margin-top: 40px;}
+  .phone{width: 225px; height: 42px;border-top:1px solid #d6d6d6;border-bottom:1px solid #d6d6d6;margin-top: 10px;color: $blck;font-size: 26px;line-height: 42px;}
+}
+#footer{ width: 100%; height: 60px;background-color: #303030;}
+.footer{ width: 1200px;height: 60px;margin: 0 auto;
+  ul{width: 370px;height: 60px;float: left;;
+    li{width: 90px;height: 60px;float: left;line-height: 60px;text-align: center;
+      a{color: #696969;font-size: 14px;}
+    }
+}
+  .statement{ width: 800px;height: 60px;float: right;text-align: center;color: #696969;font-size: 14px;line-height: 60px;}
+}
+
+.picScroll-left{ width:1078px;height: 120px; position:relative;margin: 0 auto }
+.ground{ width: 1200px; height: 200px;margin: 0 auto;padding-top: 40px;}
+.picScroll-left .hd{height:30px; padding:0 10px;position: absolute;top:-50px;}
+.picScroll-left .hd .prev,.picScroll-left .hd .next{ display:block;  width:30px; height:30px;border-radius:50%;border: 1px solid #ccc; float:right; margin-right:5px; margin-top:10px;  overflow:hidden;
+  cursor:pointer; background:url("../../images/arrow.png") no-repeat;}
+.picScroll-left .hd .prev{position: relative;left:-83px;top:83px;background-position:10px 9px; }
+.picScroll-left .hd .next{ background-position:12px -41px; position: relative;right: -1050px;top:83px; }
+.picScroll-left .hd .prevStop{ background-position:-50px 0; }
+.picScroll-left .hd .nextStop{ background-position:-60px -50px; }
+.picScroll-left .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px; zoom:1; }
+.picScroll-left .hd ul li{ float:left;  width:9px; height:9px; overflow:hidden; margin-right:5px; text-indent:-999px; cursor:pointer; background:url("../../images/icoCircle.gif") 0 -9px no-repeat; }
+.picScroll-left .hd ul li.on{ background-position:0 0; }
+.picScroll-left .bd{height:120px;}
+.picScroll-left .bd ul{ overflow:hidden; zoom:1; }
+.picScroll-left .bd ul li{ width:255px; height:120px; margin:0 8px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+.picScroll-left .bd ul li .pic{ text-align:center; }
+.picScroll-left .bd ul li .pic img{ width:255px; height:120px; display:block;  padding:2px; border:1px solid #ccc; }
+.picScroll-left .bd ul li .pic a:hover img{ border-color:#999;  }
+.picScroll-left .bd ul li .title{ line-height:24px;   }
+.evaluated ul{height: 120px;}
